@@ -1,7 +1,12 @@
-import ReactDOM from "react-dom";
+import styled from '@emotion/styled';
+import ReactDOM from 'react-dom';
+
+const StyledDiv = styled`
+  color: #000000;
+`;
 
 function App() {
-  return <div>hello</div>
+  return <StyledDiv>hello</StyledDiv>;
 }
 
-ReactDOM.render(<App />, document.querySelector("#app"));
+ReactDOM.render(<App />, document.querySelector('#app'));
